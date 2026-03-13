@@ -51,3 +51,11 @@ We utilized the Geometric Distribution to model the probability of the number of
 ![alt text](entropy_main_vs_var.png)
 
 ![alt text](opening_loyalty_density_panels-1.png)
+
+
+# Statistical analysis 
+
+
+ Chi-Square test was conducted to determine if a significant relationship exists between a player's game outcome (Win/Loss/Draw) and whether they played their Favorite Opening.
+ 
+ *Finding* : The test yielded a significant result ($p < 0.05$), confirming a statistical association between using a favorite opening and the likelihood of winning.Conclusion: This suggests that "Opening Specialization" provides a measurable competitive advantage. Players likely perform better when using their favorite openings because they are more familiar with the resulting middle-game patterns, tactical themes, and endgame transitions. This "home field advantage" in the opening phase allows players to utilize their experience to outmaneuver opponents who may be less familiar with that specific line.
