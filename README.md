@@ -41,3 +41,13 @@ We utilized the Geometric Distribution to model the probability of the number of
 
 *Luck vs. Skill* : Conversely, for beginners, the higher number of trials needed to achieve a win suggests that their success is more stochastic (luck-dependent) or inconsistent compared to the high-probability success rate of experienced players.
 
+
+# opening analysis
+
+![alt text](final_opening_diversity.png)
+
+![alt text](top_5_openings_pie.png)
+
+![alt text](entropy_main_vs_var.png)
+
+![alt text](opening_loyalty_density_panels-1.png)
