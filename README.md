@@ -1,6 +1,6 @@
 # Lichess-DB-players-performance-analysis-
 
-##1. Data OverviewSource:
+## 1. Data OverviewSource:
 
 *Lichess Open Database (Standard Rated Games, Jan–Jun 2013).*
 *Supplementary Data*: International Chess Federation (FIDE) Blitz rating lists used for cross-referencing skill brackets.Scope: The analysis focuses on the first half of 2013, representing the early developmental phase of the Lichess platform.
@@ -29,6 +29,7 @@ We visualized the win/loss sequences to identify behavioral patterns across diff
 *Intermediate PlayersObservations*: Intermediate players demonstrate higher game volume than Elites but experience more frequent and volatile losing streaks.
 
 *Finding*: Their performance is less stable, suggesting that while they have mechanical knowledge, they lack the consistency required to maintain the "Elite" status.
+(you can find the zoom into details file for the intermediate players plot for a better analysis and observations)
 
 *Beginner PlayersObservations* : This group experienced the longest sustained losing streaks.Interpretation: This is consistent with the "learning phase" of the game, where experimentation and frequent tactical errors lead to high loss frequencies.
 
