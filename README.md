@@ -53,7 +53,7 @@ We utilized the Geometric Distribution to model the probability of the number of
 ![alt text](opening_loyalty_density_panels-1.png)
 
 
-# Statistical analysis 
+## Statistical analysis 
 
 
  Chi-Square test was conducted to determine if a significant relationship exists between a player's game outcome (Win/Loss/Draw) and whether they played their Favorite Opening.
