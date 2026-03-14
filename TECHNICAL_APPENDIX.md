@@ -36,7 +36,7 @@ this project, Shannon Entropy ($H$) is utilized to quantify the diversity and un
 
 1. Mathematical DefinitionThe entropy of a player's opening distribution is
 2.
-3. calculated as:$$H(X) = -\sum_{i=1}^{n} P(x_i) \log_2 P(x_i)$$
+3. calculated as:  $$H(X) = -\sum_{i=1}^{n} P(x_i) \log_2 P(x_i)$$
 4.
 5. Where:$n$ is the total number of unique openings played.
 6.
