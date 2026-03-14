@@ -75,3 +75,6 @@ A linear regression analysis was conducted to model and compare the annual Elo g
 *Finding* : The regression models revealed a significant negative correlation between age and growth rate. Younger players exhibited a substantially steeper upward slope in their performance metrics compared to the older group.
 
 *Conclusion* : Younger players are projected to increase their Elo at a significantly faster rate. This accelerated growth is likely attributed to higher neuroplasticity, greater time availability for deliberate practice, and the "Birth Cohort Effect," where modern training tools allow younger individuals to master complex patterns more efficiently than previous generations.
+
+
+for more details : TECHNICAL_APPENDIX.md
