@@ -23,4 +23,6 @@ This represents the probability of achieving success within k trials.
   calculated the probability of seeing a streak of at least that length.If $n$ is the total number of games and $k$ is the max streak, the expected probability of a streak of length $k$ occurring at least once is approximately:
 
 ![alt text](image-3.png)
+
+
   you can read this article for more information about the topic : https://arxiv.org/abs/1507.02935
