@@ -57,12 +57,11 @@ $$df = (r - 1) \times (c - 1)$$
 Where $r$ is the number of rows and $c$ is the number of columns in your contingency table.
 =======
 
-# Shannon Entropy in Repertoire AnalysisIn 
+# Shannon Entropy
 
 this project, Shannon Entropy ($H$) is utilized to quantify the diversity and unpredictability of a player's opening repertoire. Unlike a simple count of unique openings, Entropy accounts for the probability distribution of those choices, identifying whether a player is a "specialist" (predictable) or a "generalist" (varied).
 
 1. Mathematical DefinitionThe entropy of a player's opening distribution is
-2.
 3. calculated as:  $$H(X) = -\sum_{i=1}^{n} P(x_i) \log_2 P(x_i)$$
 4.
 5. Where: $n$ is the total number of unique openings played.
