@@ -76,4 +76,4 @@ this project, Shannon Entropy ($H$) is utilized to quantify the diversity and un
 13. 3. Application to Chess Strategy
     4.
     5. Entropy is used to test the relationship between strategic volatility and performance. By calculating the entropy of experts vs. non-experts, we can determine if "mastery" correlates with a narrowing of focus (lower entropy) or an expansion of theoretical knowledge (higher entropy).
->>>>>>> e4e9fe6ccb3d673d36d71baebbe999885fb5a458
+
