@@ -89,7 +89,10 @@ To ensure statistical robustness, the dataset was filtered for **Master-Level co
 
 ### 2. The Bi-Adjacency Matrix ($M$)
 I generated a high-dimensional matrix $M$ of size $2513 \times 982$:
+
 $$M_{i,j} = \begin{cases} 1 & \text{if Player } i \text{ played Opening } j \\ 0 & \text{otherwise} \end{cases}$$
+
+
 This matrix serves as the mathematical foundation for comparing player repertoires via **Vectorized Thinking**.
 
 ### 3. Community Detection: The Leiden Algorithm
