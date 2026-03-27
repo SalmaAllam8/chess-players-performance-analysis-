@@ -76,5 +76,28 @@ A linear regression analysis was conducted to model and compare the annual Elo g
 
 *Conclusion* : Younger players are projected to increase their Elo at a significantly faster rate. This accelerated growth is likely attributed to higher neuroplasticity, greater time availability for deliberate practice, and the "Birth Cohort Effect," where modern training tools allow younger individuals to master complex patterns more efficiently than previous generations.
 
+ 
+ 
+ ## The bipartite network of chess players and openings 
+
+
+### 1. Data Engineering & Graph Construction
+To ensure statistical robustness, the dataset was filtered for **Master-Level consistency**:
+* **Population:** 2,513 players with $Elo > 2000$.
+* **Activity Threshold:** Minimum 100 games played as White **and** 100 as Black.
+* **Bipartite Mapping:** I constructed a directed bipartite schema where ECO codes are split into **White Nodes** (e.g., `C20W`) and **Black Nodes** (e.g., `C20B`).
+
+### 2. The Bi-Adjacency Matrix ($M$)
+I generated a high-dimensional matrix $M$ of size $2513 \times 982$:
+$$M_{i,j} = \begin{cases} 1 & \text{if Player } i \text{ played Opening } j \\ 0 & \text{otherwise} \end{cases}$$
+This matrix serves as the mathematical foundation for comparing player repertoires via **Vectorized Thinking**.
+
+### 3. Community Detection: The Leiden Algorithm
+Rather than using simple clustering (like K-Means), I utilized the **Leiden Algorithm** to identify communities based on network topology.
+* **Projected Graph:** Mathematically projected the bipartite relationship onto a **One-Mode Player Network**.
+* **Modularity Optimization:** Iteratively tuned the **Resolution Parameter ($\gamma$)** to $1.06$, reaching a stable convergence of **10 distinct strategic clusters**.
+
+<img width="1489" height="1190" alt="image" src="https://github.com/user-attachments/assets/6fcde7e1-9555-48d8-98f3-a24ecb223fa9" />
+
 
 for more details : TECHNICAL_APPENDIX.md
